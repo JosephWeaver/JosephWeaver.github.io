@@ -18,8 +18,8 @@
     - **weight_decay** - ?
 - **output_dim** - the overall compression rate.
 - **nlayers** - the number of hidden layers in the network
-    - **layer_size** - the number of nodes in a layer.
-    - **act_funcs** - (activation functions) The function called at the end of a layer to indicate.
+    - **layer_size** - the number of nodes in a layer, each layer maybe a different size.
+    - **act_funcs** - (activation functions) The function is called at the end of a layer to indicate, so there maybe many different activation function at each layer.
 - **batch_norm** - indicates whether we use batch normalization
 - **skip_steps** - indicates if layers are connected to deeper layers.  e.g.  a skip value of 2 means layer 1 is fully connected to layer 3, and 2 to 4.
 
